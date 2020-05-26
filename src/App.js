@@ -1,27 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Greet } from "./components/Greet";
-import Welcome from "./components/Welcome";
-import Hello from "./components/Hello";
-import Message from "./components/Message";
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import Eventbind from './components/Eventbind';
-import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
-import NameList from './components/NameList';
+// import { Greet } from "./components/Greet";
+// import Welcome from "./components/Welcome";
+// import Hello from "./components/Hello";
+// import Message from "./components/Message";
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import Eventbind from './components/Eventbind';
+// import ParentComponent from './components/ParentComponent';
+// import UserGreeting from './components/UserGreeting';
+// import NameList from './components/NameList';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <Form />
+      {/* <NameList />
       <UserGreeting />
       <ParentComponent /> <br/>
       <Eventbind />
-      {/* <Greet />  */}
-      {/* <Hello /> */}
       <FunctionClick />
       <ClassClick />
       <Greet name="Jignesh" heroName="IRON MAN" >
@@ -35,7 +35,7 @@ function App() {
       <Welcome name="class2" />
       <Welcome name="class3" />
       <Message />
-      <Counter />
+      <Counter /> */}
     </div>
   );
 }
